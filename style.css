@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/**********Header************/
+
+
+.header-section {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+
+.welcome {
+    width: 50%;
+    padding: 40px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+h2 {
+    text-decoration: capitalize;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.peter {
+    color: #F79F00;
+}
+
+h4 {
+    text-decoration: capitalize;
+    font-size: 25px; 
+}
+a { 
+    text-decoration: none;
+}
+.link {
+    text-transform: uppercase;
+    background-image: linear-gradient(#eb9f13, yellow);
+    padding: 15px 30px;
+    color: black;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    border-radius: 6px;
+    transition: .5s;
+    display: inline-block;
+}
+.link:hover { 
+    background-image: linear-gradient(yellow, orange);
+    color: black;
+    transform: scale(1.1);
+}
+.image {
+    width: 50%;
+}
+.image img {
+    width: 500px;
+    height: 500px; 
+    padding: 40px;
+    border: 20px solid;
+    background-color: greenyellow;
+    border-radius: 50%; 
+    background-image: linear-gradient(red, green, yellow);
+    border-image: linear-gradient(blue, black, orange);    
+    border-image-slice: 1;
+}
+
+
+/************Middle 1 *************/
+
+
+.middle-section { 
+    display: flex; 
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 150px;
+}
+
+
+
+
+/***************Experiences***************/
+
+.experiences-section {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 100px;
+}
+.middle2 {
+    display: flex; 
+}
+
+.full-stack {
+    width: 40%;
+    box-shadow: 10px 10px 30px #000000;
+    padding: 30px;
+    margin: 0 5%;
+}
+.full-stack h2 {
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+h3 a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 30px;
+    transition: .6s; 
+}
+h3 a:hover {
+    text-decoration: underline;
+    color: black; 
+}
+.full-stack h4 {
+    font-size: 25px; 
+}
+ 
+#experience-web-developer { 
+    border-left: 15px solid;  
+    border-image: linear-gradient(blue, black, orange, red);    
+    border-image-slice: 1;
+}
+#experience-baby-developer {
+    border-left: 15px solid;  
+    border-image: linear-gradient(black, red,orange, blue);    
+    border-image-slice: 1;
+}
+
+
+/*************Footer*************/
+
+.footer-section p {
+    text-align: center;
+    font-size: 30px;
+    margin: 150px 0 60px;
+
+
+}
